@@ -11,7 +11,7 @@ The extension removes the recommended videos section from the YouTube homepage, 
 Instead of recommendations, the extension displays motivational quotes to inspire and keep you focused on your goals.
 
 ## Steps to install
-1. Clone or download the repository to your local machine.
+1. Clone the repo or download src folder to your local machine.
 2. Open Google Chrome and navigate to chrome://extensions/.
 3. Enable Developer mode in the top right corner.
 4. Click on "Load unpacked" and select the directory where you cloned or downloaded the extension.
