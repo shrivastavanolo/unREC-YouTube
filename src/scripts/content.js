@@ -5,7 +5,7 @@ if (!child2) {
   console.log("Tag not found");
 }
 else{
-  console.log("ITS HEREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE");
+  console.log("TAG FOUND");
   while(document.querySelector('#related').firstChild){
     document.querySelector('#related').removeChild(document.querySelector('#related').firstChild);
   }
