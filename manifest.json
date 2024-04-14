@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Recommendation System Remover",
+    "version": "1.0",
+    "permissions": ["activeTab",
+    "scripting"],
+    "action": {
+        "default_title": "Action Button"
+      },
+      "background": {
+        "service_worker": "background.js",
+        "matches" : [ "*://*youtube.com/watch*" ]
+      },
+      "icons": {
+        "16": "images/lotus (5).png",
+        "32": "images/lotus (6).png",
+        "64": "images/lotus (7).png",
+        "128": "images/lotus (8).png"
+      }
+  }
